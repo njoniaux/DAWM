@@ -1,0 +1,39 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul {
+    display: flex; justify-content: space-evenly;
+}
+
+#main_div {
+    width: 100%;
+}
+
+.izquierda{
+    width: 50%; float: left;
+}
+
+.derecha{
+    margin-left: 50%;
+}
+
+#photo{
+    max-width: 30%; max-height: 50%; border-radius: 300px;
+}
+
+#contact{
+    max-height: 20%;
+}
+
+#contact ul{
+    display: flex; justify-content: space-evenly;
+}
+
+#contact ul li{
+    width: 50%;
+}
+
+.icons{
+    width: 10%;
+}
