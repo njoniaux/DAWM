@@ -1,0 +1,121 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#photo {
+  max-width: 60%;
+  max-height: 80%;
+  border-radius: 25%;
+}
+
+#intro_block {
+  display: flex;
+}
+
+#info_block {
+  display: flex;
+}
+
+#contact_block {
+  border-top: solid;
+}
+
+#contact_form {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+#intermediate_block,
+#introduction,
+#contact_form {
+  width: 30%;
+}
+#experience_block,
+#aboutme {
+  width: 70%;
+  border-left-style: solid;
+  text-align: center;
+}
+
+.icon_list {
+  justify-content: space-around;
+}
+
+#contact_icons {
+  width: auto;
+  position: fixed;
+  bottom: 0px;
+  border-style: solid;
+  right: 0px;
+  border-radius: 20px;
+}
+
+.icon_svg {
+  width: 30px;
+}
+
+.icon_list {
+  display: flex;
+}
+
+button {
+  width: fit-content;
+}
+
+ul {
+  list-style-type: none;
+}
+
+figure {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(80, 100, 255);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h3 {
+  color: rgb(157, 218, 15);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h3:hover {
+  color: rgb(80, 100, 255);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2:hover {
+  color: rgb(157, 218, 15);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#whole_block {
+  display: flex;
+}
+
+table {
+  padding: 6px 12px;
+  border: solid;
+}
+
+td {
+  border: gray solid 1px;
+}
+
+#table_div {
+  overflow-x: auto;
+  text-align: -webkit-center;
+}
