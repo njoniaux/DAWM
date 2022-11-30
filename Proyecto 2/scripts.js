@@ -62,3 +62,18 @@ function tabla2(data) {
 window.onload = function () {
   filtrarById("44511");
 };
+
+function loading() {
+  document.body.style.opacity = 0.5;
+  document.body.innerHTML += '<div class="loader"></div>';
+
+  setTimeout(function () {
+    document.body.style.opacity = 1;
+    document.querySelector(".loader").remove();
+  }, 3000);
+}
+
+let button = document.getElementById("buttonloading");
+if (button) {
+  button.onclick = loading;
+}
