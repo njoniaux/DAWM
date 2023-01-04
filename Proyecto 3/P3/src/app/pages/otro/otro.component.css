@@ -1,0 +1,12 @@
+.youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .youtube-video-container {
+    width: auto;
+    height: auto;
+  }
+}
