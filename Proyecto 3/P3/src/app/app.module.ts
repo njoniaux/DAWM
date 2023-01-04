@@ -21,6 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule } from '@angular/material/card';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { YesComponent } from './pages/yes/yes.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     DonarComponent,
     OtroComponent,
     NotFoundComponent,
+    YesComponent,
   ],
   imports: [
     YouTubePlayerModule,

@@ -7,6 +7,7 @@ import { DonarComponent } from './pages/donar/donar.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { OtroComponent } from './pages/otro/otro.component';
 import { SNKComponent } from './pages/snk/snk.component';
+import { YesComponent } from './pages/yes/yes.component';
 
 const routes: Routes = [
   {
@@ -33,6 +34,10 @@ const routes: Routes = [
   {
     path: 'otro',
     component: OtroComponent,
+  },
+  {
+    path: 'yes',
+    component: YesComponent,
   },
   {
     path: '**',
